@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    background-color:burlywood;
+   
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: cadetblue;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+form,input,option,button {
+    text-align: center;
+    border-radius:20px;
+    border: 1px solid black;
+   box-sizing: border-box;
+   padding: 12px 15px;
+}
+
+.button-group :hover
+{
+   color: green;
+   transform: scale(1.09);
+}
+
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="application-form">
+        <h2> Application Form</h2>
+         <label><b>First Name</b> </label> 
+      <input type="text" placeholder="Enter your First name" name="first_name" required>
+      <br>
+        <br>
+          <label><b>Middle Name</b></label> 
+      <input type="text" placeholder="Enter your Middle name" name="middle_name" required>
+      <br>
+        <br>
+      <label><b>Last Name</b> </label>
+      <input type="text" placeholder="Enter your Last name" name="last_name" required>
+      <br>
+        <br>
+            <label for="date"><b>Birth Date</b></label>
+            <input type="date" id="date" name="date" required>
+            <br>
+            <br>
+      <table class="gender">
+        <tr>
+   <label><b>Gender:</b></label>
+   <td><input type="radio" name="gender" value="Male">
+       <label for="Male"><b>Male</b></label><br></td>
+   <td><input type="radio" name="gender" value="Female">
+   <label for="Female"><b>Female</b></label><br><td>
+   <td><input type="radio" name="gender" value="Others">
+       <label for="Others"><b>Other</b></label><br></td></tr></table>         
+            <br>
+            <br>
+         <label for="phone"><b>Phone Number:</b></label>
+        <input type="tel" id="phone" placeholder="eg.123456" name="phone" required>
+        <br>
+        <br>
+        <label for="email"><b>Email:</b></label>
+        <input type="email" placeholder="Email" id="email" name="email" required>
+        <br>
+        <br>
+        <label for="email"><b>Passward:</b></label>
+        <input type="email" placeholder="eg.andy@1234" id="email" name="email" required>
+        <br>
+        <br>
+        <label for="email"><b>Confirm Passward:</b></label>
+        <input type="email" placeholder="Confirm Passward" id="email" name="email" required>
+        <br>
+        <br>       
+             <label><b>Course :</b></label>   
+                 <select>
+                       <option value="NULL">NULL</option>    
+                       <option value="CS">Computer Engineering</option>  
+                       <option value="AIMl">Artificial Intelligence</option>  
+                       <option value="DS">Data Science</option>  
+                       <option value="Civil">Civil Engineering</option>  
+                       <option value="ENTC">Electronic and Telecommunication</option>   
+                 </select>
+            <br>
+            <br>
+            <container class="button-group">
+            <button type="submit"><b>Submit Application</b></button>
+            </container>
+    </form>
+</body>
+</html>
